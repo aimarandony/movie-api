@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = {"http://localhost:4200","http://127.0.0.1:5500","https://aimarandony.github.io/movie-app"})
+@CrossOrigin(origins = {"http://localhost:4200","http://127.0.0.1:5500","https://aimarandony.github.io"})
 @RestController
 @RequestMapping("/api")
 public class MovieController {
